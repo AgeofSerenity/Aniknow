@@ -1,0 +1,38 @@
+:root{
+    --nav-menu-width:8%;
+    --nav-lmenu-width:14%;
+
+}
+
+@media (min-width: 50%){
+    :root{
+        --nav-menu-width:7%;
+        --nav-lmenu-width:10%;
+    }
+
+    }
+
+.ani-nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    background-color: beige;
+}
+.ani-menu{
+    border: 3px solid black;
+    margin: 0 auto;
+    height: 10%;
+    max-width: 100%;
+    width: var(--nav-menu-width);
+    padding: .5rem;
+    text-align: center;
+}
+.ani-lmenu{
+    border: 3px solid black;
+    margin: 0 auto;
+    max-width: 100%;
+    width: var(--nav-lmenu-width);
+    padding: .5rem;
+    text-align: center;
+}

@@ -13,10 +13,8 @@
     }
 
 .ani-head{
-        background-color: beige;
-        margin: 1px;
+    background-color: beige;
 }
-
 .ani-nav{
     display: flex;
     flex-direction: row;
@@ -25,7 +23,7 @@
 }
 .ani-menu{
     border: 3px solid black;
-    margin: 0 auto;
+    margin: 10px auto;
     height: 10%;
     max-width: 100%;
     width: var(--nav-menu-width);
@@ -34,9 +32,16 @@
 }
 .ani-lmenu{
     border: 3px solid black;
-    margin: 0 auto;
+    margin: 10px auto;
     max-width: 100%;
     width: var(--nav-lmenu-width);
     padding: .5rem;
     text-align: center;
+}
+.ani-table{
+    border: 1px solid black;
+}
+
+div{
+    background-color: brown;
 }
